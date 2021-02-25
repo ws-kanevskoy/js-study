@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let day = +prompt("День недели?", 1);
+    if (day < 1 || day > 7) {
+      alert("Очепятка!");
+    } else {
+      switch (day) {
+        case 1:
+          alert("Понедельник");
+          break;
+        case 2:
+          alert("Вторник");
+          break;
+        case 3:
+          alert("Среда");
+          break;
+        case 4:
+          alert("Четверг");
+          break;
+        case 5:
+          alert("Пятница");
+          break;
+        case 6:
+          alert("Суббота");
+          break;
+        case 7:
+          alert("Воскресенье");
+          break;
+      }
+    }
+  </script>
+</body>
+
+</html>
