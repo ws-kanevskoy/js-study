@@ -16,4 +16,4 @@ function toCamelCase(source) {
   return result;
 }
 
-console.log(toCamelCase("hello_world"));
+console.log(toCamelCase("hello_darkness_my_old_friend"));
